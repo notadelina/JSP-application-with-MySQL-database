@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: url('images/747506.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff; /* White text */
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255); /* Light pink background */
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h1, h2, p, a {
+            margin: 0;
+        }
+
+        h1 {
+            color: rgb(0, 0, 64);
+            margin-bottom: 20px;
+            font-weight: bold;
+            
+            
+            
+        }
+
+        h2 {
+            color: rgb(13, 2, 83);
+            font-weight: bolder;
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            color: rgb(0, 0, 64); /* Purple color */
+            font-weight: bold;
+            text-decoration: none;
+            background-color: #fff; /* White background */
+            border: 2px solid rgb(0, 0, 64);
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gestionare sali</h1>
+    </header>
+
+    <div>
+        <h2>Vizualizari + Adaugari + Stergeri</h2>
+        <div>
+            <p>
+                <a href="tabela_Cursuri.jsp"><strong>Cursuri</strong></a>
+                <a href="tabela_Angajati.jsp"><strong>Angajati</strong></a>
+                <a href="tabela_Sala.jsp"><strong>Sala</strong></a>
+            </p>
+        </div>
+
+        <hr>
+
+        <ul>
+            <li>
+                <a href="modifica_Curs.jsp"><strong>Modifica Curs</strong></a>
+            </li>
+            <li>
+                <a href="modifica_Angajat.jsp"><strong>Modifica Angajati</strong></a>
+            </li>
+            <li>
+                <a href="modifica_Sala.jsp"><strong>Modifica Sala</strong></a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
